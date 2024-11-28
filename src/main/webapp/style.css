@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: black;
+}
+
+.centro {}
+
+.borda {
+    border: 1px solid aliceblue;
+    padding: 30px;
+    border-radius: 25px;
+}
