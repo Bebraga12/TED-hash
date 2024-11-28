@@ -12,8 +12,6 @@ Embora o SHA1 tenha sido amplamente utilizado por muitos anos, ele já é consid
 - Vulnerável a ataques de colisão.
 - Já foi formalmente descontinuado devido às falhas de segurança.
 
-Fontes: :contentReference[oaicite:0]{index=0}tp&#8203;:contentReference[oaicite:1]{index=1}-hashing-algorithms.mojoauth.com/md5-vs-argon2/), [source](https://codesigningstore.com/hash-algorithm-comparison).
-
 ## 2. MD5
 Similar ao SHA1, o MD5 também apresenta sérias falhas de segurança, principalmente por ser suscetível a ataques de colisão. Ele é rápido e exige poucos recursos computacionais, o que o torna vulnerável a ataques de força bruta. Embora tenha sido muito utilizado para verificar a integridade de arquivos, não é recomendado para funções de segurança, como armazenamento de senhas ou verificações de autenticidade em ambientes críticos.
 
@@ -24,8 +22,6 @@ Similar ao SHA1, o MD5 também apresenta sérias falhas de segurança, principal
 - Vulnerável a colisões&#8203;:contentReference[oaicite:2]{index=2}de&#8203;:contentReference[oaicite:3]{index=3}a.
 - Não recomendado para armazenamento de senhas ou outras aplicações críticas.
 
-Fontes: [source](https://compare-hashing-algorithms.mojoauth.com/md5-vs-argon2/), [source](https://codesigningstore.com/hash-algorithm-comparison).
-
 ## 3. Argon2
 Este é um algoritmo moderno, vencedor da Competição de Hashing de Senhas de 2015, projetado especificamente para hashing de senhas. Ao contrário de SHA1 e MD5, o Argon2 é projetado para ser mais lento e intensivo em memória, o que dificulta ataques de força bruta. Ele oferece duas versões: Argon2i, otimizado para maior segurança contra ataques de canal lateral, e Argon2d, voltado para aplicações como criptomoedas. Sua adaptabilidade a diferentes configurações de memória, tempo e paralelismo torna-o altam...
 
@@ -35,8 +31,6 @@ Este é um algoritmo moderno, vencedor da Competição de Hashing de Senhas de 2
 
 **Desvantagens**:
 - Pode ser mais lento do que outros algoritmos, dependendo da configuração escolhida.
-
-Fontes: [source](https://compare-hashing-algorithms.mojoauth.com/md5-vs-argon2/).
 
 ## Funcionamento Interno dos Algoritmos de Hash
 
